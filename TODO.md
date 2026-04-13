@@ -1,0 +1,13 @@
+- Add mass
+    - Maybe add density
+- Add force
+    - I think it makes more sense for the player to have a jump force, for example
+- Add air resistance
+    - I don't know if it's necessary, but probably yes
+    - I don't know if there needs to be horizontal air resistance
+- Look up what this means :`class Player : public virtual Drawable`
+    - Looks like java interface to me
+- There are a lot of things that need to be multiplied by `delta`
+in the player `update()`
+- Create a README
+    - Explain how run this ( I don't even know how I run this 😭)
