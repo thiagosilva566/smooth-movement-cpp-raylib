@@ -21,12 +21,14 @@
  * @brief Construct a new GameWorld object
  */
 GameWorld::GameWorld() {
-    player.x = 100;
-    player.y = 100;
+    // initializing the player ( I still don't understand how to do that with constructors D: )
+    player.position.x = 100;
+    player.position.y = 100;
     player.width = 100;
     player.height = 100;
     player.color = GREEN;
-    player.velocity = 100;
+    player.velocity.x = 0;
+    player.velocity.y = 0;
 };
 
 /**

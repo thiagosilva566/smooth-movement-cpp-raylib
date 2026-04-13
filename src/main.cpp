@@ -11,8 +11,8 @@
 int main() {
 
     GameWindow gameWindow( 
-        800,             // width
-        450,             // height
+        1600,             // width
+        900,             // height
         "Window Title",  // title
         60,              // target FPS
         true,            // antialiasing

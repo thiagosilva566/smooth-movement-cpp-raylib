@@ -6,12 +6,11 @@
 class Player : public virtual Drawable {
 
     public:
-        float x;
-        float y;
+        Vector2 position;
         float width;
         float height;
         Color color;
-        float velocity;
+        Vector2 velocity;
         
         Player() = default;
 
